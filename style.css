@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+
+    font-family: "Martel Sans", sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    height: 97vh;
+    background-image: url("assets/images/bg.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(100vw, 1200px);
+    position: relative;
+}
+
+.main .box {
+    height: 97vh;
+    width: 100%;
+    opacity: 0.69;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    display: flex;
+    width: 80vw;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo {
+    display: flex;
+    width: 150px;
+    padding-top: 22px;
+    margin-left: 12px;
+}
+
+.logoimg {
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+    height: 82%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 20px;
+    padding: 30px;
+    text-align: center;
+}
+
+.herofirst {
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+
+
+}
+
+.herosecond {
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.herothird {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.seperation {
+    height: 7px;
+    background-color: rgb(46, 44, 44);
+    position: relative;
+    z-index: 20;
+
+}
+.btn{
+    padding: 3px 22px;
+    background-color: rgba(0, 0, 0, 0.505);
+    color: white;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+    pointer-events:none;
+    border:0.125px solid white;
+    padding-top:0;
+}
+.btn-red{
+    background-color: rgb(229,9, 20);
+    pointer-events:none;
+    border:2px solid rgb(229,9,20);
+    border-radius: 3px;
+    margin-top:25px;
+    margin-left: 20px;
+    font-weight: 700;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 7px;
+}
+.btn-red-sm{
+    background-color:rgb(229,9, 20);
+    padding: 12px 25px;
+    font-size: 24px;
+    border-radius: 6px;
+    font-weight: 600;
+    line-height: 24px;
+    padding-top: 16px;
+    pointer-events:none;
+    border:2px solid rgb(229,9,20);
+    
+}
+.svgg{
+    padding-top: 7px;
+    padding-right: 3px;
+}
+.email{
+   
+    background-color: rgba(0, 0, 0, 0.505);
+    padding: 12px 25px;
+    font-size: 24px;
+    border-radius: 6px;
+    font-weight: 600;
+    line-height: 24px;
+    padding-top: 6px;
+    padding-bottom: 2px;
+    pointer-events:none;
+    border:0.125px solid white;
+    color: white;
+    position: relative;
+    z-index: 20;
+
+}
+
+.first,.second,.third{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 72vw;
+    margin: auto;
+    color: white;
+}
+.hehe{
+    margin-top: 70px;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+}
+.secImage{
+    position: relative;
+    margin: 5px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    
+}
+.secImage img{
+    width: 35vw;
+    position: relative;
+    z-index: 20;
+    
+}
+.secImage video{
+    position: absolute;
+    left:71px;
+    top:79px;
+    width:400px;
+}
+
+.first-span{
+    font-size: 48px;
+    font-weight: 900;
+}
+.first-second{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+
+.senn{
+    line-height: 1.4;
+    
+
+}
+.thirde video{
+    top:45px;
+    width:350px;
+    left:90px;
+}
+.furst{
+    line-height: 1.2;
+}
+.faq{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 34px;
+}
+.faq h2{
+    font-size: 48px;
+    font-weight: 900;
+}
+.faqbox{
+    transition: all 1s ease-out;
+    display: flex;
+    background-color: rgb(45,45,45);
+    padding: 20px;
+    width:75vw;
+    margin:auto;
+    font-size: 24px;
+    justify-content: space-between;
+    cursor:pointer;
+    margin-bottom: 8px;
+
+}
+.faqbox:hover{
+    
+    background-color: rgb(68, 68, 68);
+}
+
+footer{
+    padding:60px;
+   
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+    max-width: 75vw;
+    margin: auto;
+}
+footer a{
+    color:#ffffffb3;
+    font-size: 14px;
+    padding: 5px;
+}
+.footer-item{
+    display: flex;
+    flex-direction: column;
+}
+
+.stn{
+    margin-top: 13px;
+}
+.last{
+    display: block;
+    color:#ffffffb3;
+    font-size: 14px;
+    padding: 5px;
+    grid-row: 5;
+}
